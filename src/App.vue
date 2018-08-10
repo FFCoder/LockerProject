@@ -2,7 +2,7 @@
   <div id="app">
     <header>
     <nav>
-      <h3>Locker Project</h3>
+      <h2>Locker Project</h2>
       <div class="navLinks">
         <ul>
           <li class="navLink"><a href="#">Home</a></li>
@@ -11,6 +11,7 @@
       </div>
     </nav>
     </header>
+
     <router-view/>
     <footer>
       &copy; Jonathon Chambers
@@ -23,8 +24,9 @@ body {
   background: #143250;
 }
 header {
+  width: 100%;
   background: #f0f0f0;
-  padding: 2%;
+  margin-bottom: 1%;
 }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -36,10 +38,10 @@ header {
 nav {
   display: flex;
   flex-direction: row;
+  padding: 1%;
 }
 nav li {
-  display: inline-block;
-  margin-left: 2rem;
+  display: inline;
 }
 .navLink {
   padding: 1rem;
